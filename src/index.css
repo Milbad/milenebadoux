@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace ;
+}
+.my-pict {
+   width: 100%;
+   height: 400px;
+   background-position: center center;
+   background-image: url('http://res.cloudinary.com/dmtewfk2q/image/upload/v1510084605/DSC01351_2_qa5c0n.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.profile-pict{
+  width:120px;
+  height:120px;
+  border-radius: 60px;
+  margin-right: 5px;
+}
+
+.presentation{
+  padding:80px;
+}
+
+.presentation-text{
+  width:60%;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.presentation-text h2{
+  color: tomato;
+  text-align: left;
+  font-size: 30px;
+}
+
+.presentation-text h3 {
+  font-size: 30px;
+}
+
+.my-text{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.navigation-item{
+  margin:20px;
+}
+
+.navigation {
+  position:absolute;
+  top:0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  padding:20px;
+  font-size: 25px;
+}
+
+.navigation li{
+  display: block;
+}
+
+.navigation a:hover{
+  border-bottom: 3px solid tomato;
+  padding-bottom: 5px;
+}
+
+.container-content{
+  margin-left:10px;
+  margin-top:80px;
+  width:100%;
+  padding-bottom:60px;
+}
+
+.container-content-projects h2, .container-content-contact h2{
+  color: tomato;
+  padding-bottom: 50px;
+  text-align: left;
+  font-size: 30px;
+  border-bottom: 1px solid #CACACA;
+}
+.container-content-projects h3 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.project {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #CACACA;
+}
+.container-content-projects, .container-content-contact{
+  width: 80%;
+  padding-bottom:60px;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+  margin-top:200px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.project-description {
+  display: flex;
+  width: 100%;
+}
+.project-description-text{
+  font-size:19px;
+  max-width: 40%;
+  margin-bottom: 10px;
+  margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+.project-url {
+  margin-top:20px;
+}
+.skills {
+    color: tomato;
+    display: flex;
+    max-width: 100%;
+}
+.icon-project {
+  width: 600px;
+  height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a: visited{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.home-icon {
+  position: absolute;
+  border-radius:4px;
+  top: 0;
+  font-size:30px;
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  left: 20px;
+  font-family: 'Nothing You Could Do', cursive;
+  padding: 13px;
+}
+.contact-form{
+  display: grid;
+  width:60%;
+}
+.contact-form label{
+  text-align: left;
+  font-size: 20px;
+}
+.contact{
+  display: flex;
+  width: 100%;
+}
+.contact-text{
+  width:40%;
+  text-align: justify;
+  padding: 5%;
+  font-size: 20px;
+}
+.contact-input{
+  border: 1px solid;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.contact-textarea{
+  font-size: 20px !important;
+  border-radius: 5px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.btn-contact{
+  text-align: right;
+  margin-top: 10px;
+}
+.btn {
+  font-family: 'Inconsolata', monospace ;
+  width:80px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: tomato;
+  color: white;
+  border: 1px solid tomato;
+}
+
+.home-icon:hover {
+
+}
+.social-icon {
+  color: tomato;
+  padding: 10px;
+}
+.footer {
+  border-top: 1px solid #CACACA;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #CACACA;
+  width:100%;
+  height:80px;
+  color:black;
+  -webkit-transition:  2s; /* Safari */
+  transition:  2s;
+}
+
+.overlay-text {
+    height: 45px;
+    background-color: transparent;
+    width: 195px;
+    cursor: pointer;
+    border: 2px double tomato;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    font-size: 25px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+
+.overlay {
+    position: absolute;
+    width: 405px;
+    height: 405px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+
+}
