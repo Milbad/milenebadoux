@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 export default function Nav () {
     return(
-      <div>
+      <div className='header-nav'>
         <div className='home-icon'>
           <Link  to='/' >M.B.</Link>
         </div>
