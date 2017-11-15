@@ -4,6 +4,12 @@ body {
   font-family: 'Alegreya SC', serif;
 }
 /*STYLING ABOUT PAGE*/
+.container-content {
+  margin-top: 80px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
 .my-pict {
   width: 100%;
   height: 400px;
@@ -23,10 +29,12 @@ body {
 .presentation {
   padding: 80px;
 }
+.presentation h2 {
+  font-size: 30px;
+}
 
 .presentation-text {
-  width: 60%;
-  font-size: 40px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -35,10 +43,6 @@ body {
 .presentation-text h2 {
   color: teal;
   text-align: left;
-  font-size: 30px;
-}
-
-.presentation-text h3 {
   font-size: 30px;
 }
 
@@ -71,12 +75,37 @@ body {
   padding-bottom: 5px;
 }
 
-.container-content {
-  margin-top: 80px;
+.header-nav {
   width: 100%;
-  padding-bottom: 60px;
 }
 
+.home-icon {
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  left: 20px;
+  font-family: 'Nothing You Could Do', cursive;
+  padding: 13px;
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  transition: 300ms linear all;
+}
+.home-icon:hover{
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+  transform: rotate(-15deg);
+  transition: 300ms linear all;
+}
+
+/*STYLING PORTFOLIO & CONTACT PAGE*/
 .container-content-projects h2, .container-content-contact h2 {
   color: teal;
   padding-bottom: 50px;
@@ -107,7 +136,7 @@ body {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.project-description {
+.project-description, .contact {
   display: flex;
   width: 100%;
 }
@@ -153,35 +182,8 @@ a {
   text-decoration: none;
   color: black;
 }
-.header-nav {
-  width: 100%;
-}
-.home-icon {
-  position: absolute;
-  border-radius: 4px;
-  top: 0;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  left: 20px;
-  font-family: 'Nothing You Could Do', cursive;
-  padding: 13px;
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
-  transform: rotate(0deg);
-  transition: 300ms linear all;
-}
-.home-icon:hover{
-  -moz-transform: rotate(-15deg);
-  -o-transform: rotate(-15deg);
-  -ms-transform: rotate(-15deg); /* IE 9 */
-  -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
-  transform: rotate(-15deg);
-  transition: 300ms linear all;
-}
+
+/*STYLING CONTACT PAGE*/
 .contact-form {
   display: grid;
   width: 60%;
@@ -192,13 +194,7 @@ a {
   font-size: 20px;
 }
 
-.contact {
-  display: flex;
-  width: 100%;
-}
-
 .contact-text {
-  width: 40%;
   text-align: justify;
   padding: 5%;
   font-size: 15px;
@@ -234,7 +230,7 @@ a {
   color: white;
   border: 1px solid teal;
 }
-
+/*STYLING FOOTER */
 .social-icon {
   color: teal;
   padding: 10px;
@@ -253,8 +249,7 @@ a {
   -webkit-transition: 2s;
   transition: 2s;
 }
-
-
+/*RESPONSIVE STYLING*/
 @media screen and (max-width: 910px) {
   .project-description {
     display: block;
@@ -267,13 +262,12 @@ a {
     max-width: 100%;
     margin-top: 30px;
   }
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .icon-project {
-    width:100%;
-    height: 250px;
-    margin-left:20px;
+    width:400px;
   }
   .project-description-text {
     font-size:15px;
@@ -288,30 +282,30 @@ a {
   .home-icon {
     left:2px;
   }
+  .presentation-text {
+    font-size: 20px;
+  }
+  .my-text{
+    font-size: 20px;
+  }
+  .container-content-projects h2, .container-content-contact h2 {
+    font-size: 25px;
+  }
+
+  .container-content-projects, .container-content-contact {
+    margin-top: 150px;
+  }
 }
 
 
-@media screen and (max-width: 420px) {
-  .container-content-projects {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 120px;
-    width:100%;
+@media screen and (max-width: 500px) {
+  .navigation {
+    right: auto;
   }
- .container-content-contact{
-    margin-top: 100px;
-  }
- .container-content-contact h2{
-    padding-bottom: 20px;
-  }
-  .presentation-text {
-    width: 100%;
+  .presentation h2, .presentation-text h2 {
     font-size: 20px;
   }
-  .presentation-text h2{
-    font-size: 20px;
-    margin:30px;
-  }
+
   .my-text {
     font-size: 15px;
     margin:30px;
@@ -322,6 +316,9 @@ a {
   .navigation {
     margin-top: 70px;
     padding: 0;
+  }
+  .navigation-item {
+    margin: 15px;
   }
   .home-icon {
     left:2px;
@@ -338,10 +335,18 @@ a {
   .contact-form {
     width: 100%;
   }
-  .contact-text {
-    width: 100%;
-  }
+
   .project-skills {
     padding: 10px;
+  }
+  .icon-project {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 350px) {
+.icon-project {
+    width: 270px;
+    height: 180px;
   }
 }
