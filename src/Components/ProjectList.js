@@ -35,7 +35,7 @@ class ProjectList extends Component {
         skills: 'Redux - Webpack - Babel - Fetch API - NPM -Git',
         description: 'A social content and discussion web application that allows users to submit content in addition to voting and commenting. Leveraged React to build a dynamic user interface, as well as Redux to manage global application state.',
         image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1510338371/readable_xmfcm6.jpg',
-        url:'https://github.com/Milbad/readable',
+        url:'https://young-shelf-23891.herokuapp.com/',
       },
       {
         name: 'MyReads: A Book Lending App',
