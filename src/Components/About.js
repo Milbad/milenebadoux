@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default function About () {
-    return(
 
+    return(
       <div className='container-content'>
         <div className='presentation'>
           <img className='profile-pict' alt='milene badoux' src='http://res.cloudinary.com/dmtewfk2q/image/upload/v1510085039/Milene_pict_c836jf.jpg' />
@@ -18,6 +18,6 @@ export default function About () {
             </div>
         </div>
       </div>
-
     )
+    
 }

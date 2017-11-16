@@ -2,6 +2,7 @@ import React from 'react';
 var FontAwesome = require('react-fontawesome');
 
 export default function Footer () {
+
     return(
       <div className='footer'>
         <a href='https://github.com/Milbad'  target='_blank' rel='noopener noreferrer' >
@@ -27,4 +28,5 @@ export default function Footer () {
         </a>
       </div>
     )
+    
 }

@@ -9,6 +9,7 @@ import { Route, Switch} from 'react-router-dom';
 
 class App extends Component {
   render() {
+
     return (
       <div className="App">
           <Nav />
@@ -18,9 +19,9 @@ class App extends Component {
           <Route  path="/contact" component={Contact} />
           </Switch>
           <Footer />
-
       </div>
     );
+    
   }
 }
 

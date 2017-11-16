@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Alegreya SC', serif;
 }
+
 /*STYLING ABOUT PAGE*/
 .container-content {
   margin-top: 80px;
@@ -156,7 +157,9 @@ body {
 .project-url a:hover {
   color:teal;
 }
-
+.project-skills {
+  margin-bottom: 20px;
+}
 .skills {
   color: teal;
   display: flex;
