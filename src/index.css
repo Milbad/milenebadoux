@@ -31,7 +31,7 @@ body {
   padding: 80px;
 }
 .presentation h2 {
-  font-size: 30px;
+  font-size: 150%;
 }
 
 .presentation-text {
@@ -44,12 +44,12 @@ body {
 .presentation-text h2 {
   color: teal;
   text-align: left;
-  font-size: 30px;
+  font-size: 150%;
 }
 
 .my-text {
   text-align: justify;
-  font-size: 20px;
+  font-size: 100%;
 }
 
 /*STYLING NAVIGATION*/
@@ -64,7 +64,7 @@ body {
   height: 60px;
   display: flex;
   padding: 20px;
-  font-size: 25px;
+  font-size: 120%;
 }
 
 .navigation li {
@@ -83,7 +83,7 @@ body {
 .home-icon {
   position: absolute;
   top: 0;
-  font-size: 25px;
+  font-size: 120%;
   font-weight: bolder;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -105,18 +105,20 @@ body {
   transform: rotate(-15deg);
   transition: 300ms linear all;
 }
-
+.home-icon, .navigation {
+  margin: 20px;
+}
 /*STYLING PORTFOLIO & CONTACT PAGE*/
 .container-content-projects h2, .container-content-contact h2 {
   color: teal;
   padding-bottom: 50px;
   text-align: left;
-  font-size: 30px;
+  font-size: 150%;
   border-bottom: 1px solid #CACACA;
 }
 
 .container-content-projects h3 {
-  font-size: 20px;
+  font-size: 120%;
   text-align: left;
 }
 
@@ -143,7 +145,7 @@ body {
 }
 
 .project-description-text {
-  font-size: 15px;
+  font-size: 100%;
   max-width: 40%;
   margin-bottom: 10px;
   margin-left: auto;
@@ -194,26 +196,26 @@ a {
 
 .contact-form label {
   text-align: left;
-  font-size: 20px;
+  font-size: 120%;
 }
 
 .contact-text {
   text-align: justify;
   padding: 5%;
-  font-size: 15px;
+  font-size: 100%;
 }
 
 .contact-input {
   border: 1px solid;
   height: 30px;
-  font-size: 20px;
+  font-size: 120%;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .contact-textarea {
-  font-size: 20px !important;
+  font-size: 120% !important;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -228,7 +230,7 @@ a {
   font-family: 'Alegreya SC', serif;
   width: 80px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 120%;
   background-color: teal;
   color: white;
   border: 1px solid teal;
@@ -239,7 +241,7 @@ a {
   padding: 10px;
 }
 .fa-2x {
-    font-size: 25px;
+    font-size: 150%;
 }
 .footer {
   border-top: 1px solid #CACACA;
@@ -272,29 +274,15 @@ a {
   .icon-project {
     width:400px;
   }
-  .project-description-text {
-    font-size:15px;
-  }
   .home-icon, .navigation {
-    font-size: 20px;
+    padding: 10px;
   }
   .navigation {
     margin-top: 70px;
-    padding: 0;
   }
   .home-icon {
     left:2px;
   }
-  .presentation-text {
-    font-size: 20px;
-  }
-  .my-text{
-    font-size: 20px;
-  }
-  .container-content-projects h2, .container-content-contact h2 {
-    font-size: 25px;
-  }
-
   .container-content-projects, .container-content-contact {
     margin-top: 150px;
   }
@@ -302,29 +290,14 @@ a {
 
 
 @media screen and (max-width: 500px) {
-  .navigation {
-    right: auto;
-  }
-  .presentation h2, .presentation-text h2 {
-    font-size: 20px;
-  }
-
   .my-text {
-    font-size: 15px;
     margin:30px;
-  }
-  .home-icon, .navigation {
-    font-size: 20px;
   }
   .navigation {
     margin-top: 70px;
-    padding: 0;
   }
   .navigation-item {
     margin: 15px;
-  }
-  .home-icon {
-    left:2px;
   }
   .icon-project {
     margin-left: 0;
@@ -338,7 +311,6 @@ a {
   .contact-form {
     width: 100%;
   }
-
   .project-skills {
     padding: 10px;
   }
@@ -347,6 +319,7 @@ a {
     height: 200px;
   }
 }
+
 @media screen and (max-width: 350px) {
 .icon-project {
     width: 270px;
