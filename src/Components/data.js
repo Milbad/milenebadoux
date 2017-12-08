@@ -36,10 +36,17 @@ export const projects = [
   },
   {
     name: 'Simon Game',
-    skills: 'HTML - CSS - Javascript',
+    skills: 'HTML - CSS - Javascript ',
     description: 'This game is a test of your memory skill. You are presented with a random series of colors. If you press the wrong color, the series start again from the beginning so you can start again. You can also play in strict mode. That means that an error will restart the game to a new series of color. You can win the game by getting a series of 20 steps correct.',
     image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1510339769/simon_ij6thp.jpg',
     url:'https://milbad.github.io/simon-game/',
+  },
+  {
+    name: 'JS Calculator',
+    skills: 'HTML - CSS - Javascript - Bootstrap',
+    description: 'A caculator built using JavaScript and Bootstrap.',
+    image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1512769167/Mac_Screenshot_1_sb8mzw.jpg',
+    url:'https://milbad.github.io/calculator/',
   },
   {
     name: 'Recipes Box App',
