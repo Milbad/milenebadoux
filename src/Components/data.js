@@ -49,6 +49,13 @@ export const projects = [
     url:'https://milbad.github.io/calculator/',
   },
   {
+    name: 'Quote Machine',
+    skills: 'HTML - CSS - Javascript - Bootstrap - API',
+    description: 'A quote machine built by using JavaScript, API calls and Bootstrap. The user can click a button to show a new random quote. He can press a button to tweet out a quote.',
+    image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1513102564/iPhone_5.5_quote-machine_yjygkf.jpg',
+    url:'https://milbad.github.io/quote-machine/',
+  },
+  {
     name: 'Recipes Box App',
     skills: 'React - HTML - CSS - Javascript',
     description: 'An App that display a list of recipes. Users can create recipes that have names and ingredients. Users can see an index view where the names of all the recipes are visible. They can edit, delete each recipe or add a new one.',
