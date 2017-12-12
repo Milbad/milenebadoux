@@ -52,7 +52,7 @@ export const projects = [
     name: 'Quote Machine',
     skills: 'HTML - CSS - Javascript - Bootstrap - API',
     description: 'A quote machine built by using JavaScript, API calls and Bootstrap. The user can click a button to show a new random quote. He can press a button to tweet out a quote.',
-    image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1513102564/iPhone_5.5_quote-machine_yjygkf.jpg',
+    image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1513103457/Capture_d_e%CC%81cran_2017-12-12_a%CC%80_10.30.46_AM_knxtul.png',
     url:'https://milbad.github.io/quote-machine/',
   },
   {
