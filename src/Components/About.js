@@ -6,7 +6,7 @@ export default function About () {
       <div className='container-content'>
         <div className='presentation'>
           <img className='profile-pict' alt='milene badoux' src='http://res.cloudinary.com/dmtewfk2q/image/upload/v1510085039/Milene_pict_c836jf.jpg' />
-          <h2>Hi, my name is Milene. I am a Front End Developer, living in Los Altos, CA</h2>
+          <h2>Hi, my name is Milene. I live in Los Altos, CA.</h2>
         </div>
         <div className='my-pict'></div>
         <div className='presentation-text'>
@@ -19,5 +19,5 @@ export default function About () {
         </div>
       </div>
     )
-    
+
 }
