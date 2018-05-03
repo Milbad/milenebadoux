@@ -55,11 +55,4 @@ export const projects = [
     image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1513103457/Capture_d_e%CC%81cran_2017-12-12_a%CC%80_10.30.46_AM_knxtul.png',
     url:'https://milbad.github.io/quote-machine/',
   },
-  {
-    name: 'Recipes Box App',
-    skills: 'React - HTML - CSS - Javascript',
-    description: 'An App that display a list of recipes. Users can create recipes that have names and ingredients. Users can see an index view where the names of all the recipes are visible. They can edit, delete each recipe or add a new one.',
-    image:'http://res.cloudinary.com/dmtewfk2q/image/upload/v1510376038/Capture_d_e%CC%81cran_2017-11-10_a%CC%80_8.53.25_PM_cnszm2.png',
-    url:'https://milbad.github.io/recipes-box/',
-  },
 ]
